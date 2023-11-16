@@ -58,7 +58,7 @@
 		ul {
 			display: block;
 			li {
-				@include mixin.undline;
+				@include mixins.undline;
 				list-style: none;
 				padding: 0.8rem;
 				text-align: center;

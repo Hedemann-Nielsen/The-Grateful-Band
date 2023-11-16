@@ -4,8 +4,8 @@
 main {
 	.gallery {
 		h2 {
-			@include mixin.font;
-			@include mixin.center;
+			@include mixins.font;
+			@include mixins.center;
 		}
 		.slider {
 			width: 1300px;

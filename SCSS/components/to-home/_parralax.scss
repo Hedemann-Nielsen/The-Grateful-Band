@@ -4,29 +4,28 @@
 // parralax efffect
 main {
 	.parallax {
-		// @include image;
-		@include mixin.parralax("pexels-brett-sayles-1309240.jpg");
+		@include mixins.parralax("pexels-brett-sayles-1309240.jpg");
 	}
 	.parallax2 {
-		@include mixin.parralax("pexels-oleg-magni-1813124.jpg");
+		@include mixins.parralax("pexels-oleg-magni-1813124.jpg");
 	}
 	.parallax3 {
-		@include mixin.parralax("pexels-jc-siller-8634867.jpg");
+		@include mixins.parralax("pexels-jc-siller-8634867.jpg");
 	}
 	.parallax4 {
-		@include mixin.parralax("pexels-josh-sorenson-995301.jpg");
+		@include mixins.parralax("pexels-josh-sorenson-995301.jpg");
 	}
 	// Gallery slider
 
 	.navigation-section {
-		@include center;
-		@include background;
+		@include mixins.center;
+		@include mixins.background;
 		a {
 			text-decoration: none;
 			color: variables.$light;
 
 			h3 {
-				@include font;
+				@include mixins.font;
 			}
 		}
 	}

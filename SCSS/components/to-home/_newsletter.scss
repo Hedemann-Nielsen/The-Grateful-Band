@@ -2,7 +2,7 @@
 @use "../../helpers/variables/variables"; //$color1, $color2, $color3, $color4, $color5, $light
 
 .newsletter-wrapper {
-	@include mixin.center;
+	@include mixins.center;
 	height: 300px;
 	width: 100%;
 	margin: 20px;
@@ -14,9 +14,9 @@
 		background-color: variables.$color3;
 		h3 {
 			font-family: "Roboto", sans-serif;
-			color: $color1;
+			color: variables.$color1;
 			font-weight: 300;
-			color: $light;
+			color: variables.$light;
 			font-size: 2rem;
 			letter-spacing: 5px;
 			padding: 50px 0 20px;

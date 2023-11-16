@@ -4,11 +4,11 @@
 .the-header {
 	//header content
 	.header-content {
-		@include mixin.center;
+		@include mixins.center;
 		height: 167px;
 
 		h1 {
-			@include mixin.font;
+			@include mixins.font;
 		}
 		video {
 			width: 125px;
@@ -40,10 +40,10 @@
 			transform: translatey(-50%);
 			padding: 0 30px;
 			li {
-				@include mixin.undline;
+				@include mixins.undline;
 				list-style: none;
 				a {
-					@include mixin.lille-font;
+					@include mixins.lille-font;
 				}
 			}
 		}
