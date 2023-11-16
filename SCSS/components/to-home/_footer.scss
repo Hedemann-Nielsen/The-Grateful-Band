@@ -1,0 +1,30 @@
+@use "../../helpers/mixin/mixins"; //center, background, parralax(), underline
+@use "../../helpers/variables/variables"; //$color1, $color2, $color3, $color4, $color5, $light
+
+footer {
+	@include mixin.center;
+	display: flex;
+	flex-direction: column;
+	color: $light;
+	font-size: 1rem;
+	font-family: "Roboto", sans-serif;
+	line-height: 30px;
+	width: 100%;
+	height: 50px;
+	background-color: variables.$color1;
+	.to-top {
+		@include mixin.background;
+		@include mixin.center;
+		@include mixin.lille-font;
+		display: flex;
+		padding-top: 50px;
+		cursor: pointer;
+		i {
+			padding: 0 5px;
+		}
+	}
+	a {
+		color: variables.$light;
+		font-size: 1.5rem;
+	}
+}

@@ -1,13 +1,22 @@
+@use "../variables/variables";
+
 @mixin center {
 	justify-content: center;
 	text-align: center;
 }
-
-@mixin parralax {
+@mixin background {
+	background-color: $color1;
+	color: $light;
+	width: 100%;
+	height: 160px;
+}
+@mixin parralax($image) {
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-image: url("../images/images/" + $image);
+	height: 350px;
 }
 
 @mixin font {

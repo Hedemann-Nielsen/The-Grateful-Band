@@ -105,5 +105,5 @@ function clearForm() {
 	myEmail.value = "";
 
 	myName.style.borderBottom = "3px solid #fcfcfc";
-	myName.style.borderBottom = "3px solid #fcfcfc";
+	myEmail.style.borderBottom = "3px solid #fcfcfc";
 }

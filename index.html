@@ -4,17 +4,18 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
-		<link rel="stylesheet" href="./assets/style/main-stylesheet.css" />
-		<script src="./js/burgermenu.js" defer></script>
-		<script src="./js/slider.js" defer></script>
-		<script src="./js/newsletter.js" defer></script>
+		<link rel="stylesheet" href="./SCSS/main.css" />
+		<script src="./javaScript/burgermenu.js" defer></script>
+		<script src="./javaScript/slider.js" defer></script>
+		<script src="./javaScript/newsletter.js" defer></script>
+		<script src="./javaScript/topTop.js" defer></script>
 		<script
 			src="https://kit.fontawesome.com/11e7a87280.js"
 			crossorigin="anonymous"></script>
 	</head>
 
 	<body>
-		<header>
+		<header class="the-header">
 			<section class="header-content">
 				<h1>the greatful band</h1>
 				<video
@@ -52,10 +53,6 @@
 			</span>
 		</nav>
 		<main>
-			<div class="parallax">
-				<div><span>scroll down</span></div>
-			</div>
-
 			<!-- gallery slider -->
 			<section class="gallery">
 				<h2>gallery</h2>
@@ -85,16 +82,16 @@
 				</div>
 			</section>
 			<div class="parallax2"></div>
-			<section class="tour-section">
+			<section class="navigation-section">
 				<a href="#tour">
-					<h3>Tour</h3>
+					<h3>tour</h3>
 					<p>click to see</p>
 				</a>
 			</section>
 			<div class="parallax3"></div>
-			<section class="tour-section">
+			<section class="navigation-section">
 				<a href="#band">
-					<h3>Band</h3>
+					<h3>the band</h3>
 					<p>click to see</p>
 				</a>
 			</section>
@@ -108,8 +105,26 @@
 				</div>
 			</section>
 			<div class="parallax"></div>
+			<section class="navigation-section">
+				<a href="#albums">
+					<h3>albums</h3>
+					<p>click to see</p>
+				</a>
+			</section>
+			<div class="parallax2"></div>
+			<section class="navigation-section">
+				<a href="#pictures">
+					<h3>pictures</h3>
+					<p>click to see</p>
+				</a>
+			</section>
+			<div class="parallax3"></div>
 		</main>
 		<footer>
+			<section class="to-top" id="goToTop">
+				<p>To top </p>
+				<i class="fa-solid fa-circle-chevron-up"></i>
+			</section>
 			<a href="mailto:contact@tgb.com">Contact</a>
 			<p
 				>copyright <i class="fa-regular fa-copyright"></i> 2023 | The gratful
