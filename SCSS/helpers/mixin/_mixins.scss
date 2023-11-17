@@ -7,7 +7,7 @@
 @mixin background {
 	background-color: variables.$color1;
 	color: variables.$light;
-	width: 100%;
+	width: 100vw;
 	height: 160px;
 }
 @mixin parralax($image) {
@@ -17,10 +17,11 @@
 	background-size: cover;
 	background-image: url("../../../assets/images/images/" + $image);
 	height: 350px;
+	width: 100vw;
 }
 
 @mixin font {
-	width: 100%;
+	width: 100vw;
 	padding-top: 30px;
 	font-size: 2rem;
 	font-family: "Rock Salt", cursive;

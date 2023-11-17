@@ -1,7 +1,8 @@
 @use "./pages/_home.scss";
 @use "./pages/_tour.scss";
-// @use "./pages/_pictures.scss";
-// @use "./pages/_the-band.scss";
+@use "./pages/_the-band.scss";
+@use "./pages/_albums.scss";
+@use "./pages/_pictures.scss";
 
 // fonts
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&family=Rock+Salt&display=swap");
@@ -11,4 +12,11 @@
 	padding: 0;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	// overflow-x: hidden;
 }

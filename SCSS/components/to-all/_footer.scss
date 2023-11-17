@@ -6,7 +6,7 @@ footer {
 	@include mixins.lille-font;
 	@include mixins.center;
 	line-height: 30px;
-
+	margin: auto;
 	.to-top {
 		display: flex;
 		gap: 0px 20px;

@@ -5,7 +5,8 @@
 .menu-bar {
 	position: fixed;
 	bottom: 8px;
-	right: 8px;
+	left: 50%;
+	transform: translateX(-50%);
 	width: 80px;
 	height: 80px;
 	border-radius: 50px;
@@ -45,14 +46,14 @@
 	position: fixed;
 	top: 230px;
 	left: 0;
-	width: 100%;
+	width: 100vw;
 	height: 100%;
 	background-color: variables.$color1;
 	animation: goRight 1s;
 	animation-timing-function: ease-in-out;
 	z-index: 999;
 	.innerMenu {
-		width: 100%;
+		width: 100vw;
 		height: 100vh;
 		margin: 2rem auto;
 		ul {
