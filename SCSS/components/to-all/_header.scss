@@ -6,10 +6,14 @@
 	.header-content {
 		@include mixins.center;
 		height: 167px;
-
-		h1 {
-			@include mixins.font;
+		a {
+			text-decoration: none;
+			color: variables.$color1;
+			h1 {
+				@include mixins.font;
+			}
 		}
+
 		video {
 			width: 125px;
 			aspect-ratio: 1/1;

@@ -4,7 +4,11 @@
   text-align: center;
   height: 167px;
 }
-.the-header .header-content h1 {
+.the-header .header-content a {
+  text-decoration: none;
+  color: #0d0f0e;
+}
+.the-header .header-content a h1 {
   width: 100%;
   padding-top: 30px;
   font-size: 2rem;
@@ -389,6 +393,37 @@ footer .copyright {
 }
 footer .copyright a {
   color: #fcfcfc;
+}
+
+main .tour-list {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fcfcfc;
+  background-color: #0d0f0e;
+  color: #fcfcfc;
+  width: 100%;
+  height: 160px;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-bottom: 20px;
+  line-height: 25px;
+  display: flex;
+  justify-content: center;
+}
+main .tour-list div:nth-child(1) {
+  padding: 0 20px;
+  letter-spacing: 4px;
+  width: 300px;
+}
+main .tour-list div:nth-child(1) p {
+  text-align: right;
+}
+main .tour-list div:nth-child(2) {
+  padding: 0 20px;
+  border-left: 2px solid #fcfcfc;
+  width: 300px;
 }
 
 * {
